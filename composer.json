@@ -1,0 +1,21 @@
+{
+    "name": "liuweiliang/lwl-ding-talk",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Liuweiliang\\LwlDingTalk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "刘伟亮",
+            "email": "791771832@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "alibabacloud/dingtalk": "^2.0",
+        "guzzlehttp/guzzle": "^7.8"
+    }
+}
